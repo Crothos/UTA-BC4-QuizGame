@@ -17,7 +17,10 @@
     color: white;
     padding: 1em;
   }
-
+  header p {
+    text-align: right;
+    font-size: xx-large;
+  }
   /*various headings*/
 h1 {
   font-size: 300%;
@@ -64,6 +67,9 @@ main {
   padding: 1em;
 }
 
+.question {
+  display: none;
+}
   /* Matches the font of special elements to the rest of the page */
 input, select, option, optgroup, textarea, button,
   pre, code {

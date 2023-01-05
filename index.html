@@ -8,15 +8,59 @@
 
 <body>
     <header>
-        <a href="/highscores.html"><h3>View High Scores</h3></a>
+        <a href="./highscores.html"><h3>View High Scores</h3></a>
+        <p id="timer">Timer</p>
     </header>
     <main>
-        <div>
-            <section id="welcome"><!--Put some classes or id's in here-->
+        <div id="welcome"><!--Put some classes or id's in here-->
                 <h1> Coding Quiz Challenge</h1>
-                <h4>Try to answer as fast as possible. The faster your time, the higher your score. However, a wrong answer will penalize you 15 seconds/points.</h4>
+                <h4>Try to answer as fast as possible. The faster your time, the higher your score. However, a wrong answer will penalize you 15 seconds.</h4>
                 <button id="startButton">Take Quiz</button>
-            </section>
+        </div>
+        <div class = "question" id="question1">
+            <h2>#1 - What does HTML stand for?</h2>
+            <ol>
+                <li><button id = "true1">Hyper Text Markup Language</button></li>
+                <li><button class = "false">Holo Tent Mangled Lemons</button></li>
+                <li><button class = "false">Hard Time Mosquito Label</button></li>
+                <li><button class = "false">It is actually not an acronym.</button></li>
+            </ol>
+        </div>
+        <div class = "question" id="question2">
+            <h2>#2 - Which of the following is NOT a way to declare a variable in Javascript?</h2>
+            <ol>
+                <li><button class = "false">var</button></li>
+                <li><button class = "false">let</button></li>
+                <li><button class = "false">const</button></li>
+                <li><button id = "true2">checkit</button></li>
+            </ol>
+        </div>
+        <div class = "question" id="question3">
+            <h2>#3 - What is a boolean datatype?</h2>
+            <ol>
+                <li><button class = "false">A kind of IPA</button></li>
+                <li><button class = "false">A spooky ghost</button></li>
+                <li><button id = "true3">True or false value</button></li>
+                <li><button class = "false">Gold bricks</button></li>
+            </ol>
+        </div>
+        <div class = "question" id="question4">
+            <h2>#4 - How do you identify an element's class in CSS?</h2>
+            <ol>
+                <li><button class = "false">Parenthesis</button></li>
+                <li><button class = "false">A hashtag</button></li>
+                <li><button id = "true4">A period</button></li>
+                <li><button class = "false">By asking nicely</button></li>
+            </ol>
+        </div>
+        <div class = "question" id="question5">
+            <h2>What does it mean to append an element?</h2>
+            <ol>
+                <li><button class = "false">To remove an element from the DOM</button></li>
+                <li><button id = "true5">To add the element to the DOM</button></li>
+                <li><button class = "false">To change an element's class in the DOM</button></li>
+                <li><button class = "false">To restart your browser</button></li>
+            </ol>
         </div>
     </main>
 <script src="./assets/script.js"></script>
