@@ -5,6 +5,8 @@ var trueButton2 = document.querySelector("#true2");
 var trueButton3 = document.querySelector("#true3");
 var trueButton4 = document.querySelector("#true4");
 var trueButton5 = document.querySelector("#true5");
+var finalScore;
+
 document.querySelectorAll('.false').forEach(item => {
     item.addEventListener('click', event => {
         secondsLeft -= 15;
@@ -102,8 +104,9 @@ trueButton4.addEventListener("click", function() {
 
 trueButton5.addEventListener("click", function() {
     console.log("That is indeed correct");
+    finalScore = secondsLeft;
+    localStorage.setItem("Score", finalScore);
     window.location.assign("./highscores.html");
-
 })
 
 // TIMER
