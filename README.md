@@ -25,4 +25,4 @@ MIT License
 
 
 ## Preview ##
-(./assets/images/CH4Prev.png)
+[Preview Image](https://github.com/Crothos/UTA-BC4-QuizGame/blob/main/assets/images/Ch4Prev.png)
